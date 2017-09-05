@@ -1,4 +1,7 @@
-/* assign the following to any floated elements you wish to clear */
+/* 
+  assign the following to the parent element of any floated elements you wish
+  to clear
+*/
 .clearfix::after {
   content: "";
   display: table;
