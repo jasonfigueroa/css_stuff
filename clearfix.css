@@ -1,0 +1,6 @@
+/* assign the following to any floated elements you wish to clear */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
